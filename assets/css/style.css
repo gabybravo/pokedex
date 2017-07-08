@@ -1,0 +1,52 @@
+* {
+    margin: 0px auto;
+    font-family: Arial, sans-serif;
+}
+
+header {
+	text-align: center;
+	font-size: 24px;
+	padding: 20px;
+	background-color: #42C3FF;
+}
+
+#container {
+    width: 970px;
+}
+
+h2, h4, p {
+    text-align: center;
+}
+
+p:first-letter {
+    text-transform: uppercase;
+}
+
+p {
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+#pokemon {
+    width: 800px;
+    cursor: pointer;
+}
+
+#display_info {
+	position: fixed;
+    border: 3px solid #42C3FF;
+    width: 200px;
+    height: auto;
+    padding: 10px;
+    position:fixed !important; 
+    right: 20px; 
+    top: 70px; 
+    z-index:10 !important;
+}
+
+footer {
+	text-align: center;
+	font-size: 16px;
+	color: #42C3FF;
+	padding: 10px;
+}
